@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  
-  <title>ADD SHOPPING LIST</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>ADD SHOPPING LIST</title>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+ 
+<style>
+
+.jumbotron{
+  background-color:#2E2D88;
+  color: white;
+}
+
+</style>
+</head>
 <body>
 	<h3>ADD SHOPPING LIST</h3>
-	<div id="input">
-       <input type="text" id="Enter item" placeholder="Enter item" name="Enter Item">
-    </div>
+	<div id="input"> 
+       <label for="inputname">Enter List</label>
+       <input type="text" id="Enter list" placeholder="Enter list" name="Enter list"><br><br>
+       <!--span onclick="newElement()" id="butt0n">Click here to add shopping list</span><br><br-->
+         <button id='btn btn-default'>Click here to add shopping list</button><br><br>
+  </div>
 
+<ol>
+      <li>Buy Groceries</li>
+      <li>Buy Stationery</li>
+      <li>Laundry & Homecare</li>
+      <li>Personal Care Products</li>
+      <li>Beverages</li>
+      <li>Appliances</li>
+
+    </ol>
+    <div id="list">
     <div>
-       <button type="Submit" id="button">Click here to add item to shopping list</button>
-       <button type="Submit"  id="button">Click here to remove item</button>
+       <!--button type="Submit" id="button"></button-->
+       <button id='btn btn-default'>Click here to remove list</button><br><br>
      </div>
 
     <div>
-		<button type="Submit" id="button">Update list</button>
+		<button id='btn btn-default'>Update list</button><br><br>
 	</div>
 
-    <h3>Added Items</h3>
-    <div id="list">
 
+    <!--h3>Added Items</h3-->
+    
+<script 
+src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous">
+  
+</script>
 </body>
 </html>
